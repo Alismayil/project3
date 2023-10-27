@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: end;
+    padding: 0px 100px;
+    
+}
+
+.modal{
+    margin-top: 150px;
+    padding: 15px;
+    width: 400px;
+    height: 55vh;
+    background: rgb(6,7,237);
+background: radial-gradient(circle, rgba(6,7,237,1) 0%, rgba(54,0,129,0.989233193277311) 100%);
+box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(6,7,237,1);
+    text-align: center;
+    font-size: 60px;
+    display: none;
+    position: absolute;
+    left: 35%;
+    border-radius: 20px;
+    
+}
+
+.active{
+    display: block;
+}
+img{
+    display: block;
+    max-width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    object-fit: cover;
+}
+table{
+    border: 3px solid rgba(6,7,237,1);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+    
+}
+tr{
+    border: 3px solid rgba(54,0,129,0.989233193277311);
+
+}
+td{
+    border: 3px solid rgba(54,0,129,0.989233193277311);
+    padding:10px;
+ 
+
+}
+#img{
+    height: 140px;
+   
+}
+#film_image{
+    width: 170px;
+    
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+
+}
+input{
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+}
+select{
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.trashbtnTd{
+    padding: 20px;
+}
+.fa-solid{
+    color: rgba(54,0,129,0.989233193277311);
+}
